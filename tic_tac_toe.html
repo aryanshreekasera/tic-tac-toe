@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic_tac_toe.css" />
+</head>
+<body>
+    <main>
+        <h2>Let's Play TIC TAC TOE</h2>
+        <h4 id="score">SCORE</h4>
+        <div class="players">
+            <div class="player1">
+                <span id="play1"></span> <br /><span class="symbol1"
+                    >O</span
+                >
+                <span>:</span> <span class="score1">0</span>
+            </div>
+            <div class="divider"></div>
+            <div class="player2">
+                <span id="play2"></span> <br /><span class="symbol2"
+                    >X</span
+                >
+                <span>:</span> <span class="score2">0</span>
+            </div>
+        </div>
+        <div class="grid">
+            <button class="btn" id="1"></button>
+            <button class="btn" id="2"></button>
+            <button class="btn" id="3"></button>
+            <button class="btn" id="4"></button>
+            <button class="btn" id="5"></button>
+            <button class="btn" id="6"></button>
+            <button class="btn" id="7"></button>
+            <button class="btn" id="8"></button>
+            <button class="btn" id="9"></button>
+        </div>
+        <button id="reset">Reset Game</button>
+    </main>
+    <div class="winner">
+        <h2 class="winner_name flex"></h2>
+        <button class="restart">Restart game</button>
+    </div>
+    <script src="tic_tac_toe.js"></script>
+</body>
+</html>
